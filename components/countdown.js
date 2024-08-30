@@ -28,7 +28,9 @@ const Countdown = ({ className = "" }) => {
             <div className={styles.minutes1}>minutes</div>
           </div>
           <div className={styles.seconds}>
-            <div className={styles.secondsPlaceholder}>45</div>
+            <div className={styles.container}>
+              <div className={styles.div1}>45</div>
+            </div>
             <div className={styles.seconds1}>seconds</div>
           </div>
         </div>
