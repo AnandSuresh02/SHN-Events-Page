@@ -124,13 +124,13 @@
   gap: var(--gap-22xl);
 }
 .header {
-  width: 536px;
+  width: auto;
   border-radius: var(--br-6xl);
   border: 2px solid var(--on-surface);
   box-sizing: border-box;
   overflow-y: auto;
   flex-shrink: 0;
-  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-16xl);
+  padding: var(--padding-xs) var(--padding-16xl) var(--padding-xs) var(--padding-16xl);
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--neutral-neutral);
